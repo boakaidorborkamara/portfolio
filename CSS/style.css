@@ -11,7 +11,7 @@ body{
 
 
 #container{
-    width: 80vw;
+    width: 100vw;
     height: 100vh;
     margin: 0px auto;
     background-color: rgb(24, 22, 22);
@@ -21,7 +21,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 15vh;
+    height: 10vh;
 }
 
 header h2{
@@ -58,13 +58,11 @@ ul li a:hover{
     border-bottom: 2px solid yellow;
 }
 
-/* main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: blueviolet;
+main{
+    height: 80vh;
+    /* background-color: red; */
     
-} */
+}
 
 
 #Sec1{
@@ -118,7 +116,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 15vh;
+    height: 10vh;
     background-color: yellow;
     color: black;  
 }

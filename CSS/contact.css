@@ -12,7 +12,7 @@ body{
 
 #container{
     position: relative;
-    width: 80vw;
+    width: 100vw;
     height: 100vh;
     margin: 0px auto;
     background-color: rgb(24, 22, 22);
@@ -115,7 +115,7 @@ footer{
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     height: 15vh;
+     height: 10vh;
      background-color: yellow;
      color: black; 
  }
