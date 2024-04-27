@@ -30,11 +30,11 @@
 
   <body style="font-family: Rubik; font-weight: lighter">
     <div class="bg-dark">
-      <div class="container">
-        <header class="pt-3">
+      <header class="pt-3">
+        <div class="container">
           <nav class="navbar navbar-expand-lg bg-body-none">
             <div class="container-fluid">
-              <a class="navbar-brand text-light" href="#">BDK</a>
+              <a class="navbar-brand text-light" href="#home">BDK</a>
               <button
                 class="navbar-toggler"
                 type="button"
@@ -52,29 +52,28 @@
               >
                 <ul class="navbar-nav mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">About</a>
+                    <a class="nav-link text-light" href="#about">ABOUT</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Project</a>
+                    <a class="nav-link text-light" href="#projects">PROJECT</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Resume</a>
+                    <a class="nav-link text-light" href="#contact">CONTACT</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-        </header>
+        </div>
+      </header>
 
-        <main>
-          <!-- home section  -->
-          <section
-            class="row px-2 py-5 container d-flex justify-content-center align-items-center"
-            style="height: 100vh"
-          >
+      <main>
+        <!-- home section  -->
+        <section
+          class="d-flex justify-content-center align-items-center"
+          style="height: 100vh"
+        >
+          <div class="container row px-2 py-5">
             <div class="text-light col">
               <h1
                 class="mb-3"
@@ -97,7 +96,7 @@
                 </button>
               </div>
             </div>
-            <div class="col text-end" cl>
+            <div class="col text-end pb-5" cl>
               <img
                 src="./assets/images/profile1.jpg"
                 alt=""
@@ -106,7 +105,7 @@
               />
             </div>
 
-            <div class="col-12 text-light row">
+            <div class="col-12 text-light row mt-5 pt-5">
               <div class="text-light col-2">
                 <a href="" class="p-2 text-light"
                   ><i class="bi bi-github fs-4"></i
@@ -127,14 +126,16 @@
                 <hr />
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          <!-- About section  -->
-          <section
-            class="text-light d-flex justify-content-center align-items-center"
-            style="height: 100vh"
-          >
-            <div>
+        <!-- About section  -->
+        <section
+          class="text-light d-flex justify-content-center align-items-center"
+          style="height: 100vh"
+        >
+          <div class="container">
+            <div class="container">
               <h1 style="font-size: 3em; font-weight: 600">About Me</h1>
               <p style="font-size: 1.5em">
                 Welcome to my corner of the web! I'm a passionate full-stack
@@ -159,267 +160,279 @@
                 code at a time.
               </p>
             </div>
-          </section>
 
-          <!-- skills section  -->
-          <section
-            class="text-light d-flex justify-content-center align-items-center"
-            style="height: 100vh"
-          >
-            <div class="w-100">
-              <h1
-                class="text-center py-2"
-                style="font-size: 3em; font-weight: 600"
+            <div class="mt-5 container">
+              <button
+                type="button"
+                class="btn"
+                style="background-color: #f0bf6c; color: black"
               >
-                Skills & Tools
-              </h1>
-              <div class="row">
-                <!-- Html -->
-                <div class="p-2 col-2">
-                  <div
-                    class="text-center py-2 rounded"
-                    style="background-color: black"
-                  >
-                    <div class="mt-4">
-                      <img
-                        src="./assets/images/logos/html-1.svg"
-                        alt=""
-                        style="width: 3em"
-                      />
-                    </div>
-                    <p class="mt-4" style="font-size: 1.5em">HTML</p>
-                  </div>
-                </div>
+                <i class="bi bi-download"></i> Download My Resume
+              </button>
+            </div>
+          </div>
+        </section>
 
-                <!-- CSS -->
-                <div class="p-2 col-2">
-                  <div
-                    class="text-center py-2 rounded"
-                    style="background-color: black"
-                  >
-                    <div class="mt-4">
-                      <img
-                        src="./assets/images/logos/css-3.svg"
-                        alt=""
-                        style="width: 3em"
-                      />
-                    </div>
-                    <p class="mt-4" style="font-size: 1.5em">CSS</p>
+        <!-- skills section  -->
+        <section
+          class="text-light d-flex justify-content-center align-items-center"
+          style="height: 100vh"
+        >
+          <div class="container">
+            <h1
+              class="text-center py-2"
+              style="font-size: 3em; font-weight: 600"
+            >
+              Skills & Tools
+            </h1>
+            <div class="row">
+              <!-- Html -->
+              <div class="p-2 col-2">
+                <div
+                  class="text-center py-2 rounded"
+                  style="background-color: black"
+                >
+                  <div class="mt-4">
+                    <img
+                      src="./assets/images/logos/html-1.svg"
+                      alt=""
+                      style="width: 3em"
+                    />
                   </div>
+                  <p class="mt-4" style="font-size: 1.5em">HTML</p>
                 </div>
+              </div>
 
-                <!-- sass -->
-                <div class="p-2 col-2">
-                  <div
-                    class="text-center py-2 rounded"
-                    style="background-color: black"
-                  >
-                    <div class="mt-4">
-                      <img
-                        src="./assets/images/logos/sass-1.svg"
-                        alt=""
-                        style="width: 4.5em"
-                      />
-                    </div>
-                    <p class="mt-4" style="font-size: 1.5em">SaaS</p>
+              <!-- CSS -->
+              <div class="p-2 col-2">
+                <div
+                  class="text-center py-2 rounded"
+                  style="background-color: black"
+                >
+                  <div class="mt-4">
+                    <img
+                      src="./assets/images/logos/css-3.svg"
+                      alt=""
+                      style="width: 3em"
+                    />
                   </div>
+                  <p class="mt-4" style="font-size: 1.5em">CSS</p>
                 </div>
+              </div>
 
-                <!-- webpack -->
-                <div class="p-2 col-2">
-                  <div
-                    class="text-center py-2 rounded"
-                    style="background-color: black"
-                  >
-                    <div class="mt-4">
-                      <img
-                        src="./assets/images/logos/webpack-icon.svg"
-                        alt=""
-                        style="width: 3.6em"
-                      />
-                    </div>
-                    <p class="mt-4" style="font-size: 1.5em">webpack</p>
+              <!-- sass -->
+              <div class="p-2 col-2">
+                <div
+                  class="text-center py-2 rounded"
+                  style="background-color: black"
+                >
+                  <div class="mt-4">
+                    <img
+                      src="./assets/images/logos/sass-1.svg"
+                      alt=""
+                      style="width: 4.5em"
+                    />
                   </div>
+                  <p class="mt-4" style="font-size: 1.5em">SaaS</p>
                 </div>
+              </div>
 
-                <!-- Bootstrap -->
-                <div class="p-2 col-2">
-                  <div
-                    class="text-center py-2 rounded"
-                    style="background-color: black"
-                  >
-                    <div class="mt-4">
-                      <img
-                        src="./assets/images/logos/bootstrap-5-1.svg"
-                        alt=""
-                        style="width: 4.5em"
-                      />
-                    </div>
-                    <p class="mt-4" style="font-size: 1.5em">Bootstrap</p>
+              <!-- webpack -->
+              <div class="p-2 col-2">
+                <div
+                  class="text-center py-2 rounded"
+                  style="background-color: black"
+                >
+                  <div class="mt-4">
+                    <img
+                      src="./assets/images/logos/webpack-icon.svg"
+                      alt=""
+                      style="width: 3.6em"
+                    />
                   </div>
+                  <p class="mt-4" style="font-size: 1.5em">webpack</p>
                 </div>
+              </div>
 
-                <!-- tailwind -->
-                <div class="p-2 col-2">
-                  <div
-                    class="text-center py-2 rounded"
-                    style="background-color: black"
-                  >
-                    <div class="mt-4">
-                      <img
-                        src="./assets/images/logos/tailwind-css-2.svg"
-                        alt=""
-                        style="width: 6em"
-                      />
-                    </div>
-                    <p class="mt-4" style="font-size: 1.5em">Tailwind</p>
+              <!-- Bootstrap -->
+              <div class="p-2 col-2">
+                <div
+                  class="text-center py-2 rounded"
+                  style="background-color: black"
+                >
+                  <div class="mt-4">
+                    <img
+                      src="./assets/images/logos/bootstrap-5-1.svg"
+                      alt=""
+                      style="width: 4.5em"
+                    />
                   </div>
+                  <p class="mt-4" style="font-size: 1.5em">Bootstrap</p>
                 </div>
+              </div>
 
-                <!--Javascript -->
-                <div class="p-2 col-2">
-                  <div
-                    class="text-center py-2 rounded"
-                    style="background-color: black"
-                  >
-                    <div class="mt-4">
-                      <img
-                        src="./assets/images/logos/javascript-1.svg"
-                        alt=""
-                        style="width: 3em"
-                      />
-                    </div>
-                    <p class="mt-4" style="font-size: 1.5em">JavaScript</p>
+              <!-- tailwind -->
+              <div class="p-2 col-2">
+                <div
+                  class="text-center py-2 rounded"
+                  style="background-color: black"
+                >
+                  <div class="mt-4">
+                    <img
+                      src="./assets/images/logos/tailwind-css-2.svg"
+                      alt=""
+                      style="width: 6em"
+                    />
                   </div>
+                  <p class="mt-4" style="font-size: 1.5em">Tailwind</p>
                 </div>
+              </div>
 
-                <!-- Node js -->
-                <div class="p-2 col-2">
-                  <div
-                    class="text-center py-2 rounded"
-                    style="background-color: black"
-                  >
-                    <div class="mt-4">
-                      <img
-                        src="./assets/images/logos/nodejs-icon.svg"
-                        alt=""
-                        style="width: 3em"
-                      />
-                    </div>
-                    <p class="mt-4" style="font-size: 1.5em">Nodejs</p>
+              <!--Javascript -->
+              <div class="p-2 col-2">
+                <div
+                  class="text-center py-2 rounded"
+                  style="background-color: black"
+                >
+                  <div class="mt-4">
+                    <img
+                      src="./assets/images/logos/javascript-1.svg"
+                      alt=""
+                      style="width: 3em"
+                    />
                   </div>
+                  <p class="mt-4" style="font-size: 1.5em">JavaScript</p>
                 </div>
+              </div>
 
-                <!-- EJS -->
-                <div class="p-2 col-2">
-                  <div
-                    class="text-center py-2 rounded"
-                    style="background-color: black"
-                  >
-                    <div class="mt-4">
-                      <img
-                        src="./assets/images/logos/icons8-ejs.svg"
-                        alt=""
-                        style="width: 3.5em"
-                      />
-                    </div>
-                    <p class="mt-4" style="font-size: 1.5em">EJS</p>
+              <!-- Node js -->
+              <div class="p-2 col-2">
+                <div
+                  class="text-center py-2 rounded"
+                  style="background-color: black"
+                >
+                  <div class="mt-4">
+                    <img
+                      src="./assets/images/logos/nodejs-icon.svg"
+                      alt=""
+                      style="width: 3em"
+                    />
                   </div>
+                  <p class="mt-4" style="font-size: 1.5em">Nodejs</p>
                 </div>
+              </div>
 
-                <!-- Npm -->
-                <div class="p-2 col-2">
-                  <div
-                    class="text-center py-2 rounded"
-                    style="background-color: black"
-                  >
-                    <div class="mt-4">
-                      <img
-                        src="./assets/images/logos/npm-square-red-1.svg"
-                        alt=""
-                        style="width: 3.5em"
-                      />
-                    </div>
-                    <p class="mt-4" style="font-size: 1.5em">NPM</p>
+              <!-- EJS -->
+              <div class="p-2 col-2">
+                <div
+                  class="text-center py-2 rounded"
+                  style="background-color: black"
+                >
+                  <div class="mt-4">
+                    <img
+                      src="./assets/images/logos/icons8-ejs.svg"
+                      alt=""
+                      style="width: 3.5em"
+                    />
                   </div>
+                  <p class="mt-4" style="font-size: 1.5em">EJS</p>
                 </div>
+              </div>
 
-                <!--GIT -->
-                <div class="p-2 col-2">
-                  <div
-                    class="text-center py-2 rounded"
-                    style="background-color: black"
-                  >
-                    <div class="mt-4">
-                      <img
-                        src="./assets/images/logos/git-icon.svg"
-                        alt=""
-                        style="width: 3.5em"
-                      />
-                    </div>
-                    <p class="mt-4" style="font-size: 1.5em">GIT</p>
+              <!-- Npm -->
+              <div class="p-2 col-2">
+                <div
+                  class="text-center py-2 rounded"
+                  style="background-color: black"
+                >
+                  <div class="mt-4">
+                    <img
+                      src="./assets/images/logos/npm-square-red-1.svg"
+                      alt=""
+                      style="width: 3.5em"
+                    />
                   </div>
+                  <p class="mt-4" style="font-size: 1.5em">NPM</p>
                 </div>
+              </div>
 
-                <!-- VS Code -->
-                <div class="p-2 col-2">
-                  <div
-                    class="text-center py-2 rounded"
-                    style="background-color: black"
-                  >
-                    <div class="mt-4">
-                      <img
-                        src="./assets/images/logos/visual-studio-code-1.svg"
-                        alt=""
-                        style="width: 3.6em"
-                      />
-                    </div>
-                    <p class="mt-4" style="font-size: 1.5em">VS Code</p>
+              <!--GIT -->
+              <div class="p-2 col-2">
+                <div
+                  class="text-center py-2 rounded"
+                  style="background-color: black"
+                >
+                  <div class="mt-4">
+                    <img
+                      src="./assets/images/logos/git-icon.svg"
+                      alt=""
+                      style="width: 3.5em"
+                    />
                   </div>
+                  <p class="mt-4" style="font-size: 1.5em">GIT</p>
                 </div>
+              </div>
 
-                <!-- MongoDB -->
-                <div class="p-2 col-2">
-                  <div
-                    class="text-center py-2 rounded"
-                    style="background-color: black"
-                  >
-                    <div class="mt-4">
-                      <img
-                        src="./assets/images/logos/mongodb-icon-1.svg"
-                        alt=""
-                        style="width: 3.6em"
-                      />
-                    </div>
-                    <p class="mt-4" style="font-size: 1.5em">MongoDB</p>
+              <!-- VS Code -->
+              <div class="p-2 col-2">
+                <div
+                  class="text-center py-2 rounded"
+                  style="background-color: black"
+                >
+                  <div class="mt-4">
+                    <img
+                      src="./assets/images/logos/visual-studio-code-1.svg"
+                      alt=""
+                      style="width: 3.6em"
+                    />
                   </div>
+                  <p class="mt-4" style="font-size: 1.5em">VS Code</p>
                 </div>
+              </div>
 
-                <!-- SQL -->
-                <div class="p-2 col-2">
-                  <div
-                    class="text-center py-2 rounded"
-                    style="background-color: black"
-                  >
-                    <div class="mt-4">
-                      <img
-                        src="./assets/images/logos/amazon-database.svg"
-                        alt=""
-                        style="width: 3.6em"
-                      />
-                    </div>
-                    <p class="mt-4" style="font-size: 1.5em">SQL</p>
+              <!-- MongoDB -->
+              <div class="p-2 col-2">
+                <div
+                  class="text-center py-2 rounded"
+                  style="background-color: black"
+                >
+                  <div class="mt-4">
+                    <img
+                      src="./assets/images/logos/mongodb-icon-1.svg"
+                      alt=""
+                      style="width: 3.6em"
+                    />
                   </div>
+                  <p class="mt-4" style="font-size: 1.5em">MongoDB</p>
+                </div>
+              </div>
+
+              <!-- SQL -->
+              <div class="p-2 col-2">
+                <div
+                  class="text-center py-2 rounded"
+                  style="background-color: black"
+                >
+                  <div class="mt-4">
+                    <img
+                      src="./assets/images/logos/amazon-database.svg"
+                      alt=""
+                      style="width: 3.6em"
+                    />
+                  </div>
+                  <p class="mt-4" style="font-size: 1.5em">SQL</p>
                 </div>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          <!-- project section  -->
-          <section
-            class="d-flex justify-content-center align-items-center"
-            style="height: 100vh"
-          >
+        <!-- project section  -->
+        <section
+          class="d-flex justify-content-center align-items-center"
+          style="height: 100vh"
+        >
+          <div>
             <div class="w-100">
               <h1
                 class="text-center text-light"
@@ -457,6 +470,7 @@
                 </div>
 
                 <div class="carousel-inner">
+                  <!-- carousel 1  -->
                   <div class="carousel-item active">
                     <!-- project name  -->
                     <div
@@ -466,7 +480,7 @@
                         <!-- image  -->
                         <div class="col-4">
                           <img
-                            src="./assets/images/profilepic.jpg"
+                            src="./assets/images/profile1.jpg"
                             class="img-fluid"
                             alt=""
                           />
@@ -499,6 +513,8 @@
                       </div>
                     </div>
                   </div>
+
+                  <!-- carousel 2  -->
                   <div class="carousel-item">
                     <!-- project name  -->
                     <div
@@ -508,7 +524,7 @@
                         <!-- image  -->
                         <div class="col-4">
                           <img
-                            src="./assets/images/profilepic.jpg"
+                            src="./assets/images/profile2.jpg"
                             class="img-fluid"
                             alt=""
                           />
@@ -541,6 +557,8 @@
                       </div>
                     </div>
                   </div>
+
+                  <!-- carousel 3  -->
                   <div class="carousel-item">
                     <!-- project name  -->
                     <div
@@ -550,7 +568,7 @@
                         <!-- image  -->
                         <div class="col-4">
                           <img
-                            src="./assets/images/profilepic.jpg"
+                            src="./assets/images/profile1.jpg"
                             class="img-fluid"
                             alt=""
                           />
@@ -610,57 +628,66 @@
                 </button>
               </div>
             </div>
-          </section>
 
-          <!-- contact section  -->
-          <!-- skills section  -->
-          <section
-            class="text-light text-center d-flex justify-content-center align-items-center"
-            style="height: 60vh"
-          >
-            <div>
-              <div class="w-100">
-                <h1
-                  class="text-center"
-                  style="font-size: 3em; font-weight: 600"
-                >
-                  Just say hi.
-                </h1>
+            <div class="mt-5 container text-center">
+              <button
+                type="button"
+                class="btn"
+                style="background-color: #f0bf6c; color: black"
+              >
+                <i class="bi bi-eye-fill"></i> View All Projects
+              </button>
+            </div>
+          </div>
+        </section>
 
-                <p style="font-size: 1.5em">
-                  I'm open to work on projects, be part of your team, and talk
-                  about new things. <br />
-                  Email me at
-                  <a href="">boakaidkamara@gmail.com</a>
-                </p>
+        <!-- contact section  -->
+        <section
+          class="text-light text-center d-flex justify-content-center align-items-center bg-light"
+          style="height: 100vh"
+        >
+          <div>
+            <div class="w-100">
+              <h1
+                class="text-center text-dark"
+                style="font-size: 3em; font-weight: 600"
+              >
+                Just say hi.
+              </h1>
 
-                <div class="text-light">
-                  <a href="" class="p-2 text-light"
-                    ><i class="bi bi-github fs-4"></i
-                  ></a>
-                  <a href="" class="p-2 text-light"
-                    ><i class="bi bi-linkedin fs-4"></i
-                  ></a>
-                  <a href="" class="p-2 text-light"
-                    ><i class="bi bi-instagram fs-4"></i
-                  ></a>
+              <p class="text-dark" style="font-size: 1.5em">
+                I'm open to work on projects, be part of your team, and talk
+                about new things. <br />
+                Email me at
+                <a href="">boakaidkamara@gmail.com</a>
+              </p>
 
-                  <a href="" class="p-2 text-light"
-                    ><i class="bi bi-facebook fs-4"></i
-                  ></a>
-                </div>
+              <div class="text-dark mt-5">
+                <a href="" class="p-2 text-dark"
+                  ><i class="bi bi-github fs-4"></i
+                ></a>
+                <a href="" class="p-2 text-dark"
+                  ><i class="bi bi-linkedin fs-4"></i
+                ></a>
+                <a href="" class="p-2 text-dark"
+                  ><i class="bi bi-instagram fs-4"></i
+                ></a>
+
+                <a href="" class="p-2 text-dark"
+                  ><i class="bi bi-facebook fs-4"></i
+                ></a>
               </div>
             </div>
-          </section>
-        </main>
+          </div>
+        </section>
+      </main>
 
-        <footer class="text-light py-4 text-center">
-          <small>
-            Handcrafted with &hearts; in Liberia by Boakai Dorbor Kamara |
-            &copy; 2024 All rights reserved.
-          </small>
-        </footer>
-      </div>
+      <footer class="text-light py-4 text-center">
+        <small>
+          Handcrafted with <span style="color: red">&hearts;</span> in Liberia
+          by Boakai Dorbor Kamara | &copy; 2024 All rights reserved.
+        </small>
+      </footer>
     </div>
   </body>
 
