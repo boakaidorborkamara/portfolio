@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+:root{
+    
+    --primary-color:#212529; 
+    --secondary-color: #ffffff;
+    --accent-color:#f0bf6c;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: Rubik;
+}
+
