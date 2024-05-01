@@ -1,6 +1,8 @@
+/* font  */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 
+/* setup global css varibles  */
 :root{
     
     --primary-color:#212529; 
@@ -11,5 +13,34 @@
 body{
     background-color: var(--primary-color);
     font-family: Rubik;
+}
+
+.outline-btn{
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+}
+
+.outline-btn:hover {
+    border: 1px solid var(--accent-color);
+    color: var(--primary-color);
+    background-color: var(--accent-color);
+}
+
+.fill-btn{
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
+.nav-item:hover{
+    border-bottom: 2px solid #f0bf6c
+}
+
+.skill-card{
+background-color: black;
+}
+
+.skill-card:hover{
+    background-color: var(--accent-color);
+    color: var(--primary-color);
 }
 
